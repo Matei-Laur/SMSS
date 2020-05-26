@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.smssend.navigation.SendsmsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/SSMSConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_dark"
+        android:padding="5sp">
+
+
+        <EditText
+            android:id="@+id/dest"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/marg_10"
+            android:background="@drawable/borders"
+            android:ems="10"
+            android:hint="@string/dest"
+            android:inputType="phone"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marg_10"
+            android:text="@string/dest_desc"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/dest"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/exp_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/marg_10"
+            android:background="@drawable/borders"
+            android:ems="10"
+            android:hint="@string/exp"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/desc"
+            tools:ignore="Autofill"/>
+        <EditText
+            android:id="@+id/exp_num"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/marg_10"
+            android:background="@drawable/borders"
+            android:ems="10"
+            android:hint="@string/exp_num"
+            android:inputType="phone"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/exp_name"
+            tools:ignore="Autofill"/>
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="@dimen/marg_10"
+            android:background="@drawable/borders"
+            android:ems="10"
+            android:hint="@string/input_message"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/exp_num"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/prevlab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marg_10"
+            android:text="@string/preview"
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/text"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/prev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marg_10"
+            android:text=""
+            android:textColor="@android:color/white"
+            app:layout_constraintTop_toBottomOf="@+id/prevlab"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/d_g"
+            android:text="@string/send"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="5dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

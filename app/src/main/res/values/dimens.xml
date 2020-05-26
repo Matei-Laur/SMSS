@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="t_s_16sp">16sp</dimen>
+    <dimen name="padd_5">5sp</dimen>
+    <dimen name="marg_10">10dp</dimen>
+    <dimen name="marg_30">30dp</dimen>
+</resources>

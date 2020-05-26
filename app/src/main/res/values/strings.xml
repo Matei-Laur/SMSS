@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">SMS SEND</string>
+    <string name="send_a_sms">Send a sms</string>
+    <string name="list_sms">View sent sms</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dest_desc">Valid destination starts with either 07 followed by 8 digits or +4 followed by 10 digits</string>
+    <string name="input_message">input message</string>
+    <string name="dest">input destination phone number</string>
+    <string name="preview">Preview</string>
+    <string name="send">SEND</string>
+    <string name="exp">Your name</string>
+    <string name="exp_num">Your phone number</string>
+</resources>
