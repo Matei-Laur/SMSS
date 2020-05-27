@@ -1,5 +1,5 @@
 # SMSS
-Demo app that send SMS throu a private sms gateway.
+Demo app that send SMS through a private sms gateway.
 
 Worked 3 days on hard mode to do this unfinished and unpolished android app.
 
